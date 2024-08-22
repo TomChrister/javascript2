@@ -4,7 +4,6 @@ class Duck {
     #name;
     #temperament;
     #key = "Duck are great";
-    static duckObserver = "Paul";
 
     // constructor
     constructor(id, name) {
@@ -55,6 +54,31 @@ class Duck {
     }
 }
 
+
+
+class Mallard extends Duck {
+
+    #hasSickness
+
+    constructor(id, name, hasSickness) {
+        console.log('New duck enters')
+        super(id, name);
+    }
+
+
+    MallardMatingCall(){
+        console.log('Quack');
+    }
+}
+
+const mallardDuck = new Mallard(1, 'Some duck');
+console.log(mallardDuck);
+
+
+
+
+
+
 class Calculator {
     static add(num1, num2) {
         return num1 + num2;
@@ -75,14 +99,9 @@ CodeGenerator.generateCode();
 
 
 
-class Mallard extends Duck {
-    MallardMatingCall(){
-        console.log('Quack')
-    }
-}
 
-const mallardDuck = new Mallard();
-console.log(mallardDuck);
+
+
 
 
 

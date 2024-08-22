@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="205cde20-3501-4864-b758-714f621d2158" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/js/superclass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superclass.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\repos\week1-js2\js" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,7 +80,7 @@
       <workItem from="1724229134696" duration="1504000" />
       <workItem from="1724230665953" duration="2279000" />
       <workItem from="1724233449467" duration="863000" />
-      <workItem from="1724310376966" duration="1863000" />
+      <workItem from="1724310376966" duration="7872000" />
     </task>
     <servers />
   </component>
