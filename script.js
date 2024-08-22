@@ -1,57 +1,101 @@
-/*class Duck {
-    // Declare private fields
+class Duck {
+    // fields / properties
     #id;
     #name;
     #temperament;
+    #key = "Duck are great";
+    static duckObserver = "Paul";
 
+    // constructor
     constructor(id, name) {
         this.#id = id;
         this.#name = name;
-        this.#temperament = "Temp is";
+        this.#temperament = "Uncertain";
     }
+
+    // methods
+    //#region getters and setters
 
     set temperament(value) {
         this.#temperament = value;
     }
 
     get temperament() {
-        return this.#temperament; // Access private field with #
+        return this.#temperament;
     }
 
-    get id () {
-        return this.#id; // Access private field with #
+    get id() {
+        return this.#id;
     }
 
-    get name () {
+    get name() {
         return this.#name;
     }
 
-    set name(value) {
-        this.#name = value;
+    setName(value, secretKey) {
+        if (this.#key === secretKey) {
+            this.#name = value;
+        } else {
+            console.log("Access denied");
+        }
     }
 
-    Quack (){
-        console.log(`${this.name} is quacking`);
+    //#endregion
+    Quack() {
+        console.log(`${this.#name} is totally quacking`);
+        this.#SomeSecretOperation();
     }
 
-    Hundred (){
-        console.log(`${this.temperament} is hundred`);
+    #SomeSecretOperation() {
+        console.log("shh");
+    }
+
+    static MoveDucks() {
+        console.log("Move that duck!!");
     }
 }
 
-const duck1 = new Duck (1, "Tom");
+class Calculator {
+    static add(num1, num2) {
+        return num1 + num2;
+    }
+}
 
-const duck2 = new Duck (2, "Marius");
-
-duck1.Quack();
-
-duck2.Quack();
-
-duck1.Hundred();
-
-duck2.Hundred();*/
+Calculator.add(2, 6);
 
 
+const duck2 = new Duck(2, "Maximus");
+
+console.log(`${duck2.name}`)
+
+class CodeGenerator {
+    static generateCode() {}
+}
+CodeGenerator.generateCode();
+
+
+
+class Mallard extends Duck {
+    MallardMatingCall(){
+        console.log('Quack')
+    }
+}
+
+const mallardDuck = new Mallard();
+console.log(mallardDuck);
+
+
+
+
+
+
+
+
+
+
+
+
+// Person class example
 
 class Person {
 
