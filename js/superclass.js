@@ -13,44 +13,104 @@ class FootballTeams {
     fieldPosition() {
         console.log('Striker');
     }
-}
 
-class Chelsea extends FootballTeams {
-    constructor(id, players, number) {
-        super(id, players, number);
-    }
-
-    fieldPosition() {
-        console.log('Winger');
-    }
-
-    age(){
+    age() {
         console.log('30');
     }
 }
 
-const Lampard = new Chelsea(1, 'Lampard', '8');
-const Essien = new Chelsea(2, 'Essien', '5');
-const Drogba = new Chelsea(3, 'Drogba', '11');
 
-Essien.age();
-Lampard.fieldPosition();
-
-console.log(Lampard);
-console.log(Essien);
-console.log(Drogba);
-
-
-class Arsenal extends FootballTeams {
+// Child 1
+class Chelsea extends FootballTeams {
     constructor(id, players, number) {
         super(id, players, number);
+        this.playerPosition = 'Midfielder';
+        this.playerAge = '42';
+    }
+
+    fieldPosition() {
+        console.log(this.fieldPosition);
+    }
+
+    age(){
+        console.log(this.age);
     }
 }
 
-const Henry = new Arsenal(1, 'Henry', '14');
-const Viera = new Arsenal(2, 'Viera', '4');
-const Gallas = new Arsenal(3, 'Gallas', '5');
-console.log(Henry);
-console.log(Viera);
-console.log(Gallas);
+const Lampard = new Chelsea(1, 'Lampard', '8');
+Lampard.age();
+Lampard.fieldPosition();
+console.log(Lampard);
+
+const Drogba = new Chelsea('Drogba', 'Forward', '11');
+console.log(Drogba);
+
+
+// Child 2
+class United extends FootballTeams {
+    constructor(id, players, number) {
+        super(id, players, number);
+        this.playerAge = '29';
+        this.playerPosition = 'Striker';
+    }
+
+    fieldPosition(){
+        console.log(this.playerPosition);
+    }
+
+    age(){
+        console.log(this.playerAge);
+    }
+}
+
+const Ronaldo = new United(1, 'Ronaldo', '7');
+Ronaldo.age();
+Ronaldo.fieldPosition();
+
+
+
+// Lesson task
+class Animal {
+    #name;
+    #sound;
+
+    constructor(name, sound) {
+        this.#name = name;
+        this.#sound = sound;
+    }
+
+    getName() {
+        return this.#name;
+    }
+
+    setName(name) {
+        this.#name = name;
+    }
+
+    getSound() {
+        return this.#sound;
+    }
+
+    setSound(sound) {
+        this.#sound = sound;
+    }
+
+    makeSound() {
+        console.log(`${this.#name} makes sound ${this.#sound}`);
+    }
+}
+
+// Instantiate an Animal object
+const animalObject = new Animal('Dog', 'Woof');
+console.log(animalObject.getName());
+animalObject.makeSound();
+
+const animalObject2 = new Animal('Cat', 'Meow');
+console.log(animalObject2.getSound());
+
+animalObject.setName('Cat');
+animalObject.setSound('Meow');
+console.log(animalObject.getName());
+animalObject.makeSound();
+
 
