@@ -112,5 +112,3 @@ animalObject.setName('Cat');
 animalObject.setSound('Meow');
 console.log(animalObject.getName());
 animalObject.makeSound();
-
-
