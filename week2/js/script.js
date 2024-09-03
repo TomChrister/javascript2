@@ -35,3 +35,15 @@ console.log(regexWhitespace.test('hello world')); // true (matches space)
 console.log(regexWhitespace.test('helloworld')); // false (no match)
 
 
+// email validation
+
+const email = "tomsch01266@stud.noroff.no";
+const regex4 = /^[a-zA-Z]{6}\d{5}@stud\.noroff\.no$/;
+
+if (regex4.test(email)) {
+    console.log("Valid email");
+} else {
+    console.log("Invalid email");
+}
+
+
