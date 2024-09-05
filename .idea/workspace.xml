@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="205cde20-3501-4864-b758-714f621d2158" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/joke-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/joke-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joke-app/webpack/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joke-app/webpack/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joke-app/webpack/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joke-app/webpack/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joke-app/webpack/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joke-app/webpack/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joke-app/webpack/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +44,15 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.17.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.16.4&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/tomch/repos/joke-app&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -49,18 +60,18 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.test.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.vite&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tomch\repos\js2\joke-app\webpack" />
+      <recent name="C:\Users\tomch\repos\js2\joke-app\webpack\src" />
       <recent name="C:\Users\tomch\repos\js2\joke-app" />
       <recent name="C:\Users\tomch\repos\js2" />
       <recent name="C:\Users\tomch\repos\js2\my-app\components" />
-      <recent name="C:\Users\tomch\repos\js2\my-app\src" />
-      <recent name="C:\repos\week1-js2\week1" />
     </key>
   </component>
   <component name="RunManager">
@@ -124,11 +135,19 @@
       <workItem from="1725354759065" duration="997000" />
       <workItem from="1725363486983" duration="7000" />
       <workItem from="1725433779899" duration="270000" />
-      <workItem from="1725434148338" duration="1077000" />
+      <workItem from="1725434148338" duration="5893000" />
+      <workItem from="1725441648947" duration="1354000" />
+      <workItem from="1725520323268" duration="2161000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.config" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
