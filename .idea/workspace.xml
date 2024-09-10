@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="205cde20-3501-4864-b758-714f621d2158" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joke-app/webpack/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joke-app/webpack/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joke-app/webpack/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joke-app/webpack/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joke-app/webpack/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joke-app/webpack/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joke-app/webpack/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/data-types" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +25,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TomChrister&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TomChrister/javascript2.git&quot;,
+    &quot;accountId&quot;: &quot;1995f8ef-8deb-4113-ad10-084b1776a5e9&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -59,8 +67,8 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.test.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.vite&quot;,
+    &quot;npm.test.executor&quot;: &quot;Debug&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -137,7 +145,12 @@
       <workItem from="1725433779899" duration="270000" />
       <workItem from="1725434148338" duration="5893000" />
       <workItem from="1725441648947" duration="1354000" />
-      <workItem from="1725520323268" duration="2161000" />
+      <workItem from="1725520323268" duration="2996000" />
+      <workItem from="1725528376302" duration="628000" />
+      <workItem from="1725529081456" duration="14000" />
+      <workItem from="1725952373385" duration="2752000" />
+      <workItem from="1725955500253" duration="1028000" />
+      <workItem from="1725956556601" duration="1570000" />
     </task>
     <servers />
   </component>
